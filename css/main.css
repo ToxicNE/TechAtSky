@@ -79,108 +79,108 @@ html,h1,h2,h3,h4,h5,h6,a{
      color:#fff;
     }
     .blog button{
-        border:1px  solid crimson;
-        background:crimson;
-        color:#fff;
+    border:1px  solid crimson;
+    background:crimson;
+    color:#fff;
        }
     .about{
-        margin: 4em 0;
-        padding: 1em;
-        position: relative;
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
        }
        .about h1{
-        color:crimson;
-        margin: 2em;
+    color:crimson;
+    margin: 2em;
        }
        .about img{
-        height: 100%;
-           width: 100%;
-           border-radius: 50%
+    height: 100%;
+    width: 100%;
+    border-radius: 50%
        }
        .about span{
-        display: block;
-        color: #888;
-        position: absolute;
-        left: 115px;
+    display: block;
+    color: #888;
+    position: absolute;
+    left: 115px;
        }
        .about .desc{
-        padding: 2em;
-        border-left:4px solid crimson;
+    padding: 2em;
+    border-left:4px solid crimson;
        }
        .about .desc h3{
-        color: crimson;
+    color: crimson;
        }
        .about .desc p{
-        line-height:2;
-        color:#888;
+    line-height:2;
+    color:#888;
        }
        .portfolio{
-        margin: 4em 0;
-        position: relative; 
+    margin: 4em 0;
+    position: relative; 
        }
        .portfolio h1{
-        color: crimson;
-        margin: 2em; 
+    color: crimson;
+    margin: 2em; 
        }
        .portfolio img{
-         height: 15rem;
-         width: 100%;
-         margin: 1em;
+    height: 15rem;
+    width: 100%;
+    margin: 1em;
        }
 
        .row span{
-        margin: 2em;
-        font-style: italic;
-        text-decoration: underline 2px crimson;
+    margin: 2em;
+    font-style: italic;
+    text-decoration: underline 2px crimson;
        }
 
        .blog{
-        margin: 4em 0;
-        position: relative; 
+    margin: 4em 0;
+    position: relative; 
        }
        .blog, .team h1{
-        color: crimson;
-        margin: 2em; 
+    color: crimson;
+    margin: 2em; 
        }
        .blog .card{
-        box-shadow: 0 0 20px #ccc;
+    box-shadow: 0 0 20px #ccc;
        }
        .blog .card img{
-        width: 100%;
-        height: 12em;
+    width: 100%;
+    height: 12em;
        }
        .blog .card-title{
-        color: crimson;
+    color: crimson;
          
        }
        .blog .card-body{
-        padding: 1em;
+    padding: 1em;
        }
        
        .team{
-        margin: 4em 0;
-        position: relative;  
+    margin: 4em 0;
+    position: relative;  
        }
       
        .team .item{
-        position: relative;
+    position: relative;
        }
        .team .des{
-        background: mediumslateblue;
-        color: #fff;
-        text-align: center;
-        border-radius: 15px 15px 15px 15px;
-        transition:.5s ease-in-out;
+    background: mediumslateblue;
+    color: #fff;
+    text-align: center;
+    border-radius: 15px 15px 15px 15px;
+    transition:.5s ease-in-out;
        }
 
        .team .item:hover .des{
-        height: 100%;
-        background: crimson;
-        position: absolute;
-        width: 89%;
-        padding: 5em;
-        top: 0;
-        border-bottom-left-radius: 0;
+    height: 100%;
+    background: crimson;
+    position: absolute;
+    width: 89%;
+    padding: 5em;
+    top: 0;
+    border-bottom-left-radius: 0;
        }
      
        .contact-form{
