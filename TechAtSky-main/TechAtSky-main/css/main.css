@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html, body { max-width: 100%; overflow-x: hidden; }
+
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: "Raleway";
+   }
+   #hideSidebar {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      display: none; /* изначально кнопка скрыта */
+    }
+
+   #sidebar {
+      position: fixed;
+      top: 0;
+      right: -200px; /* начальное положение Sidebar за пределами экрана */
+      width: 200px;
+      height: 100%;
+      border-radius: 5% 0 0 5%;
+      background-color: mediumslateblue;
+      transition: all 0.3s ease-out; /* добавляем плавное появление/скрытие */
+    }
+    
+    #toggleSidebar {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+    }
+
+   .navbar{
+    background: mediumslateblue;
+    border-radius: 0 0 15px 15px;
+   }
+   .nav-link , .navbar-brand{
+    color: #f4f4f4;
+    cursor: pointer;
+   }
+   .nav-link{
+    margin-right: 1em !important;
+   }
+   .nav-link:hover{
+    background: #f4f4f4;
+    color: mediumslateblue;
+    transition: 0.5s;
+    border-radius: 20px;
+   }
+   .navbar-collapse{
+    justify-content: flex-end;
+   }
+   .navbar-toggler{
+     background-color: mediumslateblue !important;
+   }
+   .navbar-collapse{
+    justify-content: flex-end;
+   }
+   .bg-dark{
+    background-color:#343a40!important
+    }
+    .bg-primary{
+    background-color:#343a40!important
+    }
+    .navbar-brand:hover{
+        color: crimson;
+    }
+    .header{
+        background-image: url("../images/headerback.png");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        width: 100vw;
+        height: 100vh;
+            }
+
+    .overlay{
+        position: absolute;
+        min-height: 100%;
+        min-width: 100%;
+        left: 0;
+        top: 0;
+        background: rgba(244, 244, 244, 0.79);
+            }
+    .description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+    }
+    .description h1{
+     color: mediumslateblue ;
+    }
+    .description p{
+     color:#666;
+     font-size: 20px;
+     width: 50%;
+     line-height: 1.5;
+    }
+    .description button{
+     border:1px  solid crimson;
+     background:crimson;
+     color:#fff;
+    }
+    .blog button{
+    border:1px  solid crimson;
+    background:crimson;
+    color:#fff;
+       }
+    .about{
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+       }
+       .about h1{
+    color:crimson;
+    margin: 2em;
+       }
+       .about img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%
+       }
+       .about span{
+    display: block;
+    color: #888;
+    position: absolute;
+    left: 115px;
+       }
+       .about .desc{
+    padding: 2em;
+    border-left:4px solid crimson;
+       }
+       .about .desc h3{
+    color: crimson;
+       }
+       .about .desc p{
+    line-height:2;
+    color:#888;
+       }
+       .portfolio{
+    margin: 4em 0;
+    position: relative; 
+       }
+       .portfolio h1{
+    color: crimson;
+    margin: 2em; 
+       }
+       .portfolio img{
+    height: 15rem;
+    width: 100%;
+    margin: 1em;
+       }
+
+       .row span{
+    margin: 2em;
+    font-style: italic;
+    text-decoration: underline 2px crimson;
+       }
+
+       .blog{
+    margin: 4em 0;
+    position: relative; 
+       }
+       .blog, .team h1{
+    color: crimson;
+    margin: 2em; 
+       }
+       .blog .card{
+    box-shadow: 0 0 20px #ccc;
+       }
+       .blog .card img{
+    width: 100%;
+    height: 12em;
+       }
+       .blog .card-title{
+    color: crimson;
+         
+       }
+       .blog .card-body{
+    padding: 1em;
+       }
+       
+       .team{
+    margin: 4em 0;
+    position: relative;  
+       }
+      
+       .team .item{
+    position: relative;
+       }
+       .team .des{
+    background: mediumslateblue;
+    color: #fff;
+    text-align: center;
+    border-radius: 15px 15px 15px 15px;
+    transition:.5s ease-in-out;
+       }
+
+       .team .item:hover .des{
+    height: 100%;
+    background: crimson;
+    position: absolute;
+    width: 89%;
+    padding: 5em;
+    top: 0;
+    border-bottom-left-radius: 0;
+       }
+     
+       .contact-form{
+        margin: 6em 0;
+        position: relative;  
+       }
+       .contact-form h1{
+        padding:2em 1px;
+        color: crimson; 
+       }
+       .contact-form .right{
+        max-width: 600px;
+       }
+       .contact-form .right .btn-secondary{
+        background:  mediumslateblue;
+        color: #fff;
+        border:0;
+       }
+       .contact-form .right .form-control::placeholder{
+        color: #888;
+        font-size: 16px;
+       }
+
+
+
+       .DivFooter{
+        margin-top: 5em;
+        /* margin-left: 5em; */
+        background-color: gray;
+        border-radius: 15px 15px 0 0;
+       }
+       .DivFooter p{
+        margin-left: 70em;
+       }
+       .DivFooter a{
+        color: crimson;
+       }
+       .DivFooter a:hover{
+        color: mediumslateblue;
+        text-decoration: none;
+        transition: 0.5s;
+        text-transform: uppercase;
+        padding-left: 1em;
+        padding-right: 1em;
+       }
